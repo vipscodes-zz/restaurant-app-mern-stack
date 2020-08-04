@@ -4,8 +4,15 @@
   "description": "Restaurant App using MERN Stack",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "start-server": "nodemon server.js"
   },
   "author": "Avip Syaifulloh",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.27",
+    "nodemon": "^2.0.4",
+    "react-router-dom": "^5.2.0"
+  }
 }
